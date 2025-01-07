@@ -9,7 +9,7 @@ function PostList () {
     const [error, setError] = useState('');
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPosts, setTotalPosts] = useState(0);
-    const postsPerPage = 10;
+    const postsPerPage = 4;
 
     useEffect(() => {
         const fetchPosts = async () => {
